@@ -1,0 +1,12 @@
+#startBtn{
+    display: block;
+    margin: auto;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+    grid-gap: 3vw;
+    justify-items: center;
+    align-items: center;
+}
