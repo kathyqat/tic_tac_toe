@@ -3,10 +3,71 @@
     margin: auto;
 }
 
-#main{
+#names{
+    height: 2vh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
     grid-gap: 3vw;
     justify-items: center;
     align-items: center;
+}
+
+#gameBoard{
+    height: 69vh;
+    width: 69vh;
+    margin: auto;
+    padding: 15vh;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    justify-items: center;
+    align-items: center;
+}
+
+.boardSection{
+    height: 23vh;
+    width: 23vh;
+    margin: 0;
+}
+
+#section0{
+    border-right: black solid 3px;
+    border-bottom: black solid 3px;
+}
+
+#section1{
+    border-bottom: black solid 3px;
+}
+
+#section2{
+    border-left: black solid 3px;
+    border-bottom: black solid 3px;
+}
+
+#section3{
+    border-right: black solid 3px;
+}
+
+#section5{
+    border-left: black solid 3px;
+}
+
+#section6{
+    border-right: black solid 3px;
+    border-top: black solid 3px;
+}
+
+#section7{
+    border-top: black solid 3px;
+}
+
+#section8{
+    border-left: black solid 3px;
+    border-top: black solid 3px;
+}
+
+.boardMarker{
+    text-align: center;
+    font-size: 7vh;
 }
